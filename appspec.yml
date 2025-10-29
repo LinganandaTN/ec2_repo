@@ -2,12 +2,11 @@ version: 0.0
 os: linux
 
 files:
-  - source: dist/
+  - source: dist/frontend/
     destination: /data/test-app/frontend/dist/
 
 hooks:
   AfterInstall:
-    - location: frontend/scripts/restart_nginx.sh
+    - location: scripts/restart_nginx.sh
       timeout: 60
       runas: ubuntu
-
