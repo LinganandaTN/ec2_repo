@@ -8,7 +8,8 @@ phases:
 
 artifacts:
   files:
-    - dist/frontend/**/*        # All frontend build files
-    - appspec.yml               # Include deployment descriptor
-    - scripts/**/*              # Include deployment scripts if any
-  base-directory: .             # Root of your repo
+    - dist/**/*                 # include the entire dist folder
+    - appspec.yml
+    - scripts/**/*
+  base-directory: .
+          # Root of your repo
