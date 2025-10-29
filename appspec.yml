@@ -7,7 +7,7 @@ files:
 
 hooks:
   AfterInstall:
-    - location: scripts/restart_nginx.sh
+    - location: frontend/scripts/restart_nginx.sh
       timeout: 60
       runas: ubuntu
 
