@@ -1,9 +1,14 @@
-build:
-  commands:
-    - npm install
-    - npm run build
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - npm install
+      - npm run build
+
 artifacts:
   files:
     - dist/frontend/**/*
     - appspec.yml
     - scripts/**/*
+
