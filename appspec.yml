@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 
 files:
-  - source: /
-    destination: /data/test-app/frontend/dist/frontend
+  - source: dist/
+    destination: /data/test-app/frontend/dist/
 
 hooks:
   AfterInstall:
